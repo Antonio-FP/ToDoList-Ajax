@@ -11,5 +11,5 @@ $pass = getenv('BBDD_PASS');
 $database = getenv('BBDD_DB');
 
 
-$pdo = new PDO("mysql:host=localhost;dbname=todolist;charset=utf8", "root", "");
+$pdo = new PDO("mysql:host=$host;dbname=$database;charset=utf8", $user, $pass);
 ?>
