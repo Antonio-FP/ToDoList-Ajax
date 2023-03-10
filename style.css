@@ -1,0 +1,142 @@
+body {
+    background-color: #191C24;
+    font-family: consolas;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    flex-direction: column;
+}
+
+.top-buttons button {
+    background-color: #EB1616;
+    border: none;
+    padding: .5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.top-buttons button:last-child {
+    background-color: #4CAF50;
+}
+
+.todo-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.td-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #6C7293;
+    width: 45%;
+    flex-direction: column;
+    padding: .5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.td-item .top-box h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.td-item .bottom-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.td-item .bottom-box .buttons-box button {
+    color: white;
+    border: 0;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.td-item .bottom-box .buttons-box button:first-child {
+    background-color: #4CAF50;
+}
+
+.td-item .bottom-box .buttons-box button:last-child {
+    background-color: red;
+}
+
+/* Add Task CSS */
+.add-task {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    margin-top: 1rem;
+    background-color: #6C7293;
+    border-radius: 10px;
+    padding: 1rem;
+    flex-direction: column;
+
+}
+
+.section-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.modify-box {
+    margin-top: .75rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.modify-box label {
+    padding: .25rem;
+}
+
+.modify-box input {
+    padding: .25rem;
+    background-color: none;
+    border: none;
+}
+
+.modify-box button {
+    padding: .25rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+}
